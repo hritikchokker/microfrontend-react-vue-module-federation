@@ -1,7 +1,7 @@
 import { StylesProvider, createGenerateClassName } from "@material-ui/core";
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
-import {createBrowserHistory} from history;
+import {createBrowserHistory} from 'history';
 import Header from "./components/Header";
 import Progress from "./components/Progress";
 const MarketingApp = lazy(() => import("./components/MarketingApp"));
